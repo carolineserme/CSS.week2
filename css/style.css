@@ -51,3 +51,20 @@ h1 {
 p {
     line-height: 1.6; /* Altura de linha para dar espaço entre as frases */
 }
+/* ==========================================================================
+   NOVAS REGRAS DA LIÇÃO 2 - GRID E FLEXBOX
+   ========================================================================== */
+
+/* PASSO 5 e 7: Configura a grade com duas colunas de ~40%, espaçadas e centralizadas */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px; /* Brinque com esse valor para ajustar o espaçamento vertical */
+}
+
+/* PASSO 6: Seletor descendente para fazer as imagens ocuparem 100% do espaço da coluna do grid */
+.grid img {
+    width: 100%;
+}
