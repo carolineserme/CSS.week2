@@ -7,9 +7,18 @@ header {
     background-color: #f0f4f8; /* Define uma cor de fundo clara */
 }
 
-/* Menu de navegação */
+/* PASSO 3: Menu de navegação alterado para inline-block e largura de 80% */
 nav {
     background-color: #2c3e50; /* Define uma cor de fundo escura */
+    display: inline-block;
+    width: 80%;
+}
+
+/* PASSO 4: Seletor descendente para estilizar somente a imagem na navegação (header) */
+header img {
+    width: 10%;
+    position: relative;
+    top: 20px;
 }
 
 /* Conteúdo principal */
@@ -23,11 +32,13 @@ footer {
     background-color: #e2e8f0; /* Fundo cinzento claro */
 }
 
-/* Elemento li (os itens do menu de navegação) */
+/* PASSO 2: Elemento li (os itens do menu) COMENTADO */
+/* 
 li {
-    display: inline-block; /* EXIGIDO: Alinha os itens na horizontal */
-    width: 150px;          /* EXIGIDO: Define uma largura para cada item */
+    display: inline-block; 
+    width: 150px;          
 }
+*/
 
 /* Título principal h1 */
 h1 {
