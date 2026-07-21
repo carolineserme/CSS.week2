@@ -80,3 +80,19 @@ p {
     width: 200px; /* Você pode ajustar esse valor para que caibam mais ou menos fotos por linha */
     margin: 10px;
 }
+/* Estilo para esconder o link de acessibilidade visualmente, mas mantê-lo funcional */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #2c3e50;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.2s;
+}
+
+/* Mostra o link caso o usuário use a navegação por teclado (tecla TAB) */
+.skip-link:focus {
+    top: 0;
+}
