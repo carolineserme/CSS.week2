@@ -7,11 +7,18 @@ header {
     background-color: #f0f4f8; /* Define uma cor de fundo clara */
 }
 
-/* PASSO 3: Menu de navegação alterado para inline-block e largura de 80% */
+/* PASSO 3: Menu de navegação alterado para inline-block, largura de 80% e FUNDO CINZA CLARO */
 nav {
-    background-color: #2c3e50; /* Define uma cor de fundo escura */
+    background-color: #eef2f5; /* Mudado para um cinza bem claro para contraste */
     display: inline-block;
     width: 80%;
+    padding: 10px 0;           /* Adiciona um pequeno espaçamento interno */
+}
+
+/* ACESSIBILIDADE: Cor dos links da navegação alterada para AZUL MARINHO FORTE */
+nav a {
+    color: #0a2540;            /* Azul marinho de alto contraste */
+    font-weight: bold;         /* Deixa o texto mais espesso para facilitar a leitura */
 }
 
 /* PASSO 4: Seletor descendente para estilizar somente a imagem na navegação (header) */
@@ -85,7 +92,7 @@ p {
     position: absolute;
     top: -40px;
     left: 0;
-    background: #2c3e50;
+    background: #0a2540; /* Também ajustado para o azul marinho forte */
     color: white;
     padding: 8px;
     z-index: 100;
