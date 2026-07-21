@@ -1,0 +1,42 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+/* Cabeçalho */
+header {
+    background-color: #f0f4f8; /* Define uma cor de fundo clara */
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #2c3e50; /* Define uma cor de fundo escura */
+}
+
+/* Conteúdo principal */
+main {
+    background-color: #ffffff; /* Fundo branco */
+    font-size: 105%;           /* Tamanho de fonte ligeiramente maior */
+}
+
+/* Rodapé */
+footer {
+    background-color: #e2e8f0; /* Fundo cinzento claro */
+}
+
+/* Elemento li (os itens do menu de navegação) */
+li {
+    display: inline-block; /* EXIGIDO: Alinha os itens na horizontal */
+    width: 150px;          /* EXIGIDO: Define uma largura para cada item */
+}
+
+/* Título principal h1 */
+h1 {
+    text-align: center;                  /* Alinhamento ao centro */
+    font-family: 'Times New Roman', serif; /* Família de fonte */
+    color: #2c3e50;                      /* Cor do texto */
+}
+
+/* Parágrafos p */
+p {
+    line-height: 1.6; /* Altura de linha para dar espaço entre as frases */
+}
