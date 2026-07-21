@@ -68,3 +68,15 @@ p {
 .grid img {
     width: 100%;
 }
+/* PASSO 8: Estiliza a classe flex para usar flexbox, permitindo quebra de linha e alinhamento */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Garante que as imagens dentro do container flex fiquem com um tamanho legal e responsivo */
+.flex img {
+    width: 200px; /* Você pode ajustar esse valor para que caibam mais ou menos fotos por linha */
+    margin: 10px;
+}
